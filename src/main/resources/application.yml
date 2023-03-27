@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: guest
+    password: guest
+    driver-class-name: org.postgresql.Driver
+    url: http://localhost:5432/test
+  jpa:
+    hibernate:
+      ddl-auto: update
+
